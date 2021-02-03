@@ -1,7 +1,7 @@
 {
-  "name": "AINEBOT",
+  "name": "PutraBot",
   "version": "1.0.0",
-  "description": "Aine for whatsapp online with termux",
+  "description": "Putra for whatsapp online with termux",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -13,15 +13,15 @@
   "keywords": [
     "k"
   ],
-  "author": "Muhammad Ridwan Reynaldy",
+  "author": "Putraelf",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anemio/ainebotv5.git"
   },
   "bugs": {
-    "url": "https://github.com/anemio/ainebotv5/issues"
+    "url": "https://github.com/putraelf/putraenzet.git"
   },
-"homepage": "https://github.com/anemio/ainebotv5/readme",
+"homepage": "https://github.com/putraelf/putraenzet.git",
 "license": "ISC",
 "dependencies": {
     "@adiwajshing/baileys": "^3.3.0",
