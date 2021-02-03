@@ -41,9 +41,9 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 prefix = '!'
 blocked = []   
-limitawal = 7
-memberlimit = 3
-cr = '*AINEBOT THIS IS ALREADY VERIFIED*'
+limitawal = 10
+memberlimit = 2
+cr = '*PUTRABOT THIS IS ALREADY VERIFIED*'
 
 /******** OWNER NUMBER**********/
 const ownerNumber = ["6281253534285@s.whatsapp.net"] 
@@ -2144,13 +2144,13 @@ client.on('group-participants-update', async (anu) => {
 				client.sendMessage(from, yeh, text, {quoted: mek})
 				await limitAdd(sender)
 				break
-		case 'gctoxicrelationship':
+		case 'gctoxic':
 					client.sendMessage(from, 'https://chat.whatsapp.com/FaxM6du5qn1CSBg3fmxJ7j',MessageType.text, { quoted: mek} )
 					break
 		case 'gcGoodvibes':
 					client.sendMessage(from, 'https://chat.whatsapp.com/Dokt1SpiyfnDgWKNH2ACjF',MessageType.text, { quoted: mek} )
 					break
-		case 'gcmybotputra':
+		case 'gcmybot':
 					client.sendMessage(from, 'https://chat.whatsapp.com/I0ASKkgD7hg9sOS4kc2kho',MessageType.text, { quoted: mek} )
 					break
 		case 'bot':
