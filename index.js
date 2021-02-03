@@ -267,15 +267,15 @@ client.on('group-participants-update', async (anu) => {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `*Hallo* 👋 @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject}*\nSemoga betah ya di sini 😅\nJangan lupa intro ╭══════•›⸙ ━✪━ ⸙‹•═══════
- │ 𒈞ℕ𝔼𝕎 𝕄𝔼𝕄𝔹𝔼ℝ 𝕀ℕ𝕋ℝ𝕆𒈞
- ¦   by *OWNERBOT* :ไفتر علف ๅื
-      Wa.me//6281253534285 •°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
- │ Nama  :  
- │ Umur   :  
- ¦  Status : 
- |  Askot  : 
- ╰═══════⸙ ━✪━ ⸙════════ @${num.split('@')[0]} 😅`
+				teks = `*Hallo* 👋 @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject}*\nSemoga betah ya di sini 😅\nJangan lupa intro╭══════•›⸙ ━✪━ ⸙‹•═══════
+  │      𒈞ℕ𝔼𝕎  𝕄𝔼𝕄𝔹𝔼ℝ 𝕀ℕ𝕋ℝ𝕆𒈞
+  ¦       by *OWNERBOT* :ไفتر علف ๅื
+       Wa.me//6281253534285 •°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•
+  │ Nama    :  
+  │ Umur    :  
+  ¦  Status : 
+  |  Askot  : 
+  ╰═══════⸙ ━✪━ ⸙════════ @${num.split('@')[0]} 😅`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 				} else if (anu.action == 'remove') {
@@ -501,7 +501,7 @@ client.on('group-participants-update', async (anu) => {
 				hasiltf = jumblah - fee
 				addKoinUser(tujuantf, hasiltf)
 				confirmATM(sender, jumblah)
-				addKoinUser('62812535342856@s.whatsapp.net', fee)
+				addKoinUser('6281253534285@s.whatsapp.net', fee)
 				reply(`*「 SUKSES 」*\n\nPengiriman uang telah sukses\nDari : +${sender.split("@")[0]}\nKe : +${tujuan}\nJumlah transfer : ${jumblah}\npajak : ${fee}`)
 				break
 		case 'dompet':
@@ -1049,7 +1049,7 @@ client.on('group-participants-update', async (anu) => {
 		case 'infonomor':
 					if (!isRegistered) return reply(ind.noregis())
 					if (isLimit(sender)) return reply(ind.limitend(pusname))
-					if (args.length < 1) return reply(`Masukan Nomor\nContoh : ${prefix}infonomor 0812345678`)
+					if (args.length < 1) return reply(`Masukan Nomor\nContoh : ${prefix}infonomor 081253534285`)
 					data = await fetchJson(`https://docs-jojo.herokuapp.com/api/infonomor?no=${body.slice(11)}`)
 					if (data.error) return reply(data.error)
 					if (data.result) return reply(data.result)
