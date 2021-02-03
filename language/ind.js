@@ -23,7 +23,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar aine|22*`
+	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Putraelf|22*`
 }
 
 exports.rediregis = () => {
@@ -63,11 +63,11 @@ exports.nsfwoff = () => {
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner AINEBOT, Laporan palsu atau main² tidak akan ditanggapi.*`
+	return`*Masalah telah di laporkan ke owner PUTRA BOT, Laporan palsu atau main² tidak akan ditanggapi.*`
 }
 
 exports.wrongf = () => {
-	return`*Format salah/text kosong*`
+	return`*Format salah/text kosong,dikasih tulisan biar bisa di kerjakan coeg*`
 }
 
 exports.clears = () => {
@@ -115,18 +115,19 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 }
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku) => { 
-	return `「 *AINE BOT* 」
+	return `「 *PUTRA BOT* 」
 
+
+「 *Putra Bot* 」
 ◪ *INFO DEVELOPER*
-  ❏ Nama: Muhammad Ridwan Reynaldy
-  ❏ Wa: wa.me/62895330379186
-  ❏ Ig: https://instagram.com/anemio999
-  ❏ Fb: https://facebook.com/ridwan228
+  ❏ Nama: Putra elf narnia
+  ❏ Wa: wa.me/6281253534285
+  ❏ Fb: https://facebook.com/Putra Elf
   ----------------------------------
-◪ *INFO AINEBOT*
-  ❏ Nama: AINEBOT 
-  ❏ Nomor: wa.me/12022926988
-  ❏ Fb: https://facebook.com/ainneboot
+◪ *INFO PUTRABOT*
+  ❏ Nama: PUTRA BOT 
+  ❏ Nomor: wa.me/15175544725
+  ❏ Fb: https://facebook.com/Putra elf
   ----------------------------------
 ◪ *YOUR INFO*
   ❏ Prefix: 「  ${prefix}  」
@@ -137,7 +138,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ❏ Level: ${getLevelingLevel(sender)}
   ❏ User register : ${_registered.length}
             *Rules* - *Simple*
-▬▭▬▭▬▭▬▭▬▭▬▭▬
+▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭▬▭▬▭▬▬▭▬▭▬▭▬▬▭▬▭▬▭▬
   ❏ *Spam : Auto Block!*
   ❏ *Beri Jeda 5detik Saat Menggunakannya!!*
   ❏ *Bug/Error Harap Cht Owner!*
@@ -145,7 +146,8 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ❏ *Ketik ${prefix}bot*
   ❏ *Harap Sabar Dengan Bug²nya!*
   ❏ *Gunakan Bot Sebaik-baiknya!*
-▬▭▬▭▬▭▬▭▬▭▬▭▬
+▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭▬▭▬▭▬
+<<<=======================>>>
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
@@ -154,7 +156,10 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}request
   ├─ ❏ ${prefix}blocklist
   ├─ ❏ ${prefix}ping
-  └─ ❏ ${prefix}gcainebot
+  ├─ ❏ ${prefix}gctoxicpeople
+  ├─ ❏ ${prefix}gcGoodvibes
+  ├─ ❏ ${prefix}gcmybot
+<<<=======================>>>
 ◪ *MAKER*
   │
   ├─ ❏ ${prefix}nulis
@@ -187,12 +192,13 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}ninjalogo
   ├─ ❏ ${prefix}jokerlogo
   ├─ ❏ ${prefix}sumery
-  ├─ ❏ ${prefix}summer
-  └─ ❏ ${prefix}hartatata
+  └─ ❏ ${prefix}summer
+<<<=======================>>>
 ◪ *MEDIA*
   │
   ├─ ❏ ${prefix}beritahoax
   └─ ❏ ${prefix}trendtwit
+<<<=======================>>>
 ◪ *OTHER FITUR*
   │
   ├─ ❏ ${prefix}ssweb
@@ -207,10 +213,11 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}bitly
   ├─ ❏ ${prefix}chord [teks]
   ├─ ❏ ${prefix}katacinta
-  ├─ ❏ ${prefix}katabijak
-  ├─ ❏ ${prefix}faktaunik
   ├─ ❏ ${prefix}pantun
+  ├─ ❏ ${prefix}quotes
+  ├─ ❏ ${prefix}animequotes
   └─ ❏ ${prefix}artinama [teks]
+<<<=======================>>>
 ◪ *KERANG AJAIB*
   │
   ├─ ❏ ${prefix}gantengcek
@@ -221,6 +228,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}kapankah
   ├─ ❏ ${prefix}bisakah
   └─ ❏ ${prefix}rate
+<<<=======================>>>
 ◪ *DOWNLOADER*
   │
   ├─ ❏ ${prefix}pinterest [teks]
@@ -228,14 +236,17 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}ytmp4 [link]
   ├─ ❏ ${prefix}fototiktok
   └─ ❏ ${prefix}joox [teks]
+<<<=======================>>>
 ◪ *MEME*
   │
   ├─ ❏ ${prefix}meme ❌
-  └─ ❏ ${prefix}memeindo
+  └─ ❏ ${prefix}memeindo ❌
+<<<=======================>>>
 ◪ *FIND TARGET*
   │
   ├─ ❏ ${prefix}mutual
   └─ ❏ ${prefix}next
+<<<=======================>>>
 ◪ *RANDOM PICTUE*
   │ *ANIME*
   ├─ ❏ ${prefix}loli
@@ -250,7 +261,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}animegirl
   ├─ ❏ ${prefix}animeboy
   ├─ ❏ ${prefix}nekonime
-  │
+  <<<=======================>>>
   │ *RANDOM KPOP*
   ├─ ❏ ${prefix}randomkpop
   │
@@ -276,35 +287,48 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}icecream
   ├─ ❏ ${prefix}pemandangan
   │
-  │ *QUOTES PICTURE*
+  │ *QUOTES*
   ├─ ❏ ${prefix}quotesid
   ├─ ❏ ${prefix}quotesen
   ├─ ❏ ${prefix}katakata
   ├─ ❏ ${prefix}motivasi
   ├─ ❏ ${prefix}kehidupan
   └─ ❏ ${prefix}islami
-◪ *QUOTES*
-  │
-  ├─ ❏ ${prefix}quotes
-  ├─ ❏ ${prefix}quoteskehidupan
-  ├─ ❏ ${prefix}quotesislami
-  ├─ ❏ ${prefix}quotesnasehat
-  ├─ ❏ ${prefix}quotescinta ❌
-  ├─ ❏ ${prefix}animequotes
-  └─ ❏ ${prefix}twichquotes
 ◪ *LIMIT & UANG*
   │
   ├─ ❏ ${prefix}limit
   ├─ ❏ ${prefix}buylimit
   ├─ ❏ ${prefix}transfer
   └─ ❏ ${prefix}dompet
+◪ *GROUP*
+  │
+  ├─ ❏ ${prefix}promote [@tag]
+  ├─ ❏ ${prefix}demote [@tag]
+  ├─ ❏ ${prefix}tagall
+  ├─ ❏ ${prefix}hidetag
+  ├─ ❏ ${prefix}grouplist
+  ├─ ❏ ${prefix}add [62]
+  ├─ ❏ ${prefix}kick [@tag]
+  ├─ ❏ ${prefix}setname
+  ├─ ❏ ${prefix}setdesc
+  ├─ ❏ ${prefix}setpp
+  ├─ ❏ ${prefix}listadmin
+  ├─ ❏ ${prefix}linkgc
+  ├─ ❏ ${prefix}leave
+  ├─ ❏ ${prefix}mining
+  ├─ ❏ ${prefix}level
+  ├─ ❏ ${prefix}grup [buka/tutup)
+  ├─ ❏ ${prefix}welcome [1/0]
+  ├─ ❏ ${prefix}nsfw [1/0]
+  ├─ ❏ ${prefix}leveling [1/0]
+  └─ ❏ ${prefix}simih [1/0]
+<<<=======================>>>
 ◪ *SOUND*
   │
   ├─ ❏ ${prefix}play [teks]
   └─ ❏ ${prefix}tts
 ◪ *ISLAM*
   │
-  ├─ ❏ ${prefix}jadwalsholat [teks]
   └─ ❏ ${prefix}quran
 ◪ *STALK*
   │
@@ -340,18 +364,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}infocuaca
   ├─ ❏ ${prefix}infonomor
   └─ ❏ ${prefix}covid ❌
-◪ *GROUP*
-  │
-  ├─ ❏ ${prefix}tagall
-  ├─ ❏ ${prefix}listadmin
-  ├─ ❏ ${prefix}linkgc
-  ├─ ❏ ${prefix}mining
-  ├─ ❏ ${prefix}level
-  ├─ ❏ ${prefix}grup [buka/tutup)
-  ├─ ❏ ${prefix}welcome [1/0]
-  ├─ ❏ ${prefix}nsfw [1/0]
-  ├─ ❏ ${prefix}leveling [1/0]
-  └─ ❏ ${prefix}simih [1/0]
+<<<=======================>>>
 ◪ *OWNER*
   │
   ├─ ❏ ${prefix}setprefix
@@ -360,17 +373,26 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
   ├─ ❏ ${prefix}block
   ├─ ❏ ${prefix}unblock
   ├─ ❏ ${prefix}setprefix
+  ├─ ❏ ${prefix}leave
+  ├─ ❏ ${prefix}kickall
   ├─ ❏ ${prefix}event [1/0]
+  ├─ ❏ ${prefix}bc
+  ├─ ❏ ${prefix}bcgc
   ├─ ❏ ${prefix}clone
   └─ ❏ ${prefix}clearall
+<<<=======================>>>
 ◪ *OTHER*
   │
   ├─ ❏ ${prefix}wame
   ├─ ❏ ${prefix}qrcode
   └─ ❏ ${prefix}afk
-◪ *POWERED BY AINEBOT*
+▬▭▬▭▬▭▬▬▭▬▭▬▭▬▬▭▬▭▬▭▬▬▭▬▭▬▭▬
+┣━━━━━━━━━━━━━━━━━━━━
+┃ *POWERED BY PUTRAELF*
+╰──✪══⟪COPYRIGHT 2-2-2021⟫══✪❉⊰━━✿
 `
 }
+
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel) => {
 	return`
@@ -382,7 +404,7 @@ exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel)
 `}
  
 exports.limitend = (pushname) => {
-	return`*Maaf ${pushname} limit hari ini habis*\n*Hubungi kami* : wa.me/62895330379186`
+	return`*Maaf ${pushname} limit hari ini habis*\n*Hubungi kami* : wa.me/6281253534285`
 }
 
 exports.limitcount = (limitCounts) => {
